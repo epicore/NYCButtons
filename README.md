@@ -1,6 +1,6 @@
-# README NYCButtons Demo ♣
+# NYCButtons Demo ♣
 
-**A Demo of NYCSpinnerButton and NYCStickyButton in a sample Xcode Project**
+**Project Demo showcasing NYCSpinnerButton and NYCStickyButton in a sample Xcode Project**
 
 I made some custom buttons for a recent bike map project.
 They have a nice UX, a nice animation, and a good look and feel when used inside of the UIView nav holder I made. 
@@ -37,4 +37,4 @@ Please contribute using [Github Flow](https://guides.github.com/introduction/flo
 
 ## License
 
-TouchInterceptor is available under the MIT license. See the LICENSE file for more info.
+NYCButtons is available under the MIT license. See the LICENSE file for more info.
