@@ -224,7 +224,6 @@ typedef NS_ENUM(NSInteger, BikeMapModeType){
 }
 
 - (void) clearRefreshBtn{
-    // clear the refreshBtn state and any forcerefresh that's running.
     if(self.refreshBtn.isSpinning){
         self.refreshBtn.isSpinning = NO;
     }
