@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07784B081CF7569500D10470 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07784B071CF7569500D10470 /* main.m */; };
+		07784B0B1CF7569500D10470 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07784B0A1CF7569500D10470 /* AppDelegate.m */; };
+		07784B0E1CF7569500D10470 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07784B0D1CF7569500D10470 /* ViewController.m */; };
+		07784B111CF7569500D10470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07784B0F1CF7569500D10470 /* Main.storyboard */; };
+		07784B131CF7569500D10470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07784B121CF7569500D10470 /* Assets.xcassets */; };
+		07784B161CF7569500D10470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07784B141CF7569500D10470 /* LaunchScreen.storyboard */; };
+		07784B221CF75AC600D10470 /* NYCSpinnerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 07784B1F1CF75AC600D10470 /* NYCSpinnerButton.m */; };
+		07784B231CF75AC600D10470 /* NYCStickyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 07784B211CF75AC600D10470 /* NYCStickyButton.m */; };
+		07784B271CF75B9400D10470 /* UIView+CenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07784B261CF75B9400D10470 /* UIView+CenterView.m */; };
+		07784B2A1CF7624500D10470 /* UIColor+colorWithHexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 07784B291CF7624500D10470 /* UIColor+colorWithHexString.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07784B031CF7569500D10470 /* NYCButtonsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYCButtonsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07784B071CF7569500D10470 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07784B091CF7569500D10470 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07784B0A1CF7569500D10470 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07784B0C1CF7569500D10470 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07784B0D1CF7569500D10470 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07784B101CF7569500D10470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07784B121CF7569500D10470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07784B151CF7569500D10470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07784B171CF7569500D10470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07784B1E1CF75AC600D10470 /* NYCSpinnerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NYCSpinnerButton.h; path = Buttons/NYCSpinnerButton.h; sourceTree = "<group>"; };
+		07784B1F1CF75AC600D10470 /* NYCSpinnerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NYCSpinnerButton.m; path = Buttons/NYCSpinnerButton.m; sourceTree = "<group>"; };
+		07784B201CF75AC600D10470 /* NYCStickyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NYCStickyButton.h; path = Buttons/NYCStickyButton.h; sourceTree = "<group>"; };
+		07784B211CF75AC600D10470 /* NYCStickyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NYCStickyButton.m; path = Buttons/NYCStickyButton.m; sourceTree = "<group>"; };
+		07784B251CF75B9400D10470 /* UIView+CenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+CenterView.h"; path = "categories/UIView+CenterView.h"; sourceTree = "<group>"; };
+		07784B261CF75B9400D10470 /* UIView+CenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+CenterView.m"; path = "categories/UIView+CenterView.m"; sourceTree = "<group>"; };
+		07784B281CF7624500D10470 /* UIColor+colorWithHexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+colorWithHexString.h"; path = "categories/UIColor+colorWithHexString.h"; sourceTree = "<group>"; };
+		07784B291CF7624500D10470 /* UIColor+colorWithHexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+colorWithHexString.m"; path = "categories/UIColor+colorWithHexString.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07784B001CF7569500D10470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07784AFA1CF7569400D10470 = {
+			isa = PBXGroup;
+			children = (
+				07784B051CF7569500D10470 /* NYCButtonsDemo */,
+				07784B041CF7569500D10470 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07784B041CF7569500D10470 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07784B031CF7569500D10470 /* NYCButtonsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07784B051CF7569500D10470 /* NYCButtonsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				07784B091CF7569500D10470 /* AppDelegate.h */,
+				07784B0A1CF7569500D10470 /* AppDelegate.m */,
+				07784B0C1CF7569500D10470 /* ViewController.h */,
+				07784B0D1CF7569500D10470 /* ViewController.m */,
+				07784B241CF75B4F00D10470 /* Categories */,
+				07784B1D1CF75A8500D10470 /* Buttons */,
+				07784B0F1CF7569500D10470 /* Main.storyboard */,
+				07784B121CF7569500D10470 /* Assets.xcassets */,
+				07784B141CF7569500D10470 /* LaunchScreen.storyboard */,
+				07784B171CF7569500D10470 /* Info.plist */,
+				07784B061CF7569500D10470 /* Supporting Files */,
+			);
+			path = NYCButtonsDemo;
+			sourceTree = "<group>";
+		};
+		07784B061CF7569500D10470 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07784B071CF7569500D10470 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07784B1D1CF75A8500D10470 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				07784B1E1CF75AC600D10470 /* NYCSpinnerButton.h */,
+				07784B1F1CF75AC600D10470 /* NYCSpinnerButton.m */,
+				07784B201CF75AC600D10470 /* NYCStickyButton.h */,
+				07784B211CF75AC600D10470 /* NYCStickyButton.m */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		07784B241CF75B4F00D10470 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				07784B251CF75B9400D10470 /* UIView+CenterView.h */,
+				07784B261CF75B9400D10470 /* UIView+CenterView.m */,
+				07784B281CF7624500D10470 /* UIColor+colorWithHexString.h */,
+				07784B291CF7624500D10470 /* UIColor+colorWithHexString.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07784B021CF7569500D10470 /* NYCButtonsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07784B1A1CF7569500D10470 /* Build configuration list for PBXNativeTarget "NYCButtonsDemo" */;
+			buildPhases = (
+				07784AFF1CF7569500D10470 /* Sources */,
+				07784B001CF7569500D10470 /* Frameworks */,
+				07784B011CF7569500D10470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NYCButtonsDemo;
+			productName = NYCButtonsDemo;
+			productReference = 07784B031CF7569500D10470 /* NYCButtonsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07784AFB1CF7569400D10470 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Joshua Weinberg";
+				TargetAttributes = {
+					07784B021CF7569500D10470 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CGFSUXS6D7;
+					};
+				};
+			};
+			buildConfigurationList = 07784AFE1CF7569400D10470 /* Build configuration list for PBXProject "NYCButtonsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07784AFA1CF7569400D10470;
+			productRefGroup = 07784B041CF7569500D10470 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07784B021CF7569500D10470 /* NYCButtonsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07784B011CF7569500D10470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07784B161CF7569500D10470 /* LaunchScreen.storyboard in Resources */,
+				07784B131CF7569500D10470 /* Assets.xcassets in Resources */,
+				07784B111CF7569500D10470 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07784AFF1CF7569500D10470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07784B0E1CF7569500D10470 /* ViewController.m in Sources */,
+				07784B0B1CF7569500D10470 /* AppDelegate.m in Sources */,
+				07784B2A1CF7624500D10470 /* UIColor+colorWithHexString.m in Sources */,
+				07784B231CF75AC600D10470 /* NYCStickyButton.m in Sources */,
+				07784B221CF75AC600D10470 /* NYCSpinnerButton.m in Sources */,
+				07784B271CF75B9400D10470 /* UIView+CenterView.m in Sources */,
+				07784B081CF7569500D10470 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07784B0F1CF7569500D10470 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07784B101CF7569500D10470 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07784B141CF7569500D10470 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07784B151CF7569500D10470 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07784B181CF7569500D10470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07784B191CF7569500D10470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07784B1B1CF7569500D10470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = NYCButtonsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thirdstreetmedia.NYCButtonsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07784B1C1CF7569500D10470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = NYCButtonsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thirdstreetmedia.NYCButtonsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07784AFE1CF7569400D10470 /* Build configuration list for PBXProject "NYCButtonsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07784B181CF7569500D10470 /* Debug */,
+				07784B191CF7569500D10470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07784B1A1CF7569500D10470 /* Build configuration list for PBXNativeTarget "NYCButtonsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07784B1B1CF7569500D10470 /* Debug */,
+				07784B1C1CF7569500D10470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07784AFB1CF7569400D10470 /* Project object */;
+}
